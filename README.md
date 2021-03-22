@@ -1,14 +1,6 @@
-# Work Day Scheduler
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+# Rhythm Shift
+This is a simple calendar application that allows a user to save events for each hour of the day. This app runs in the browser. Events can be saved to local storage, and will persist even if the page is closed and reopened. Events are also color coded based on if the given hour is in the past, present, or future. Here is a screenshot of the app. 
+
+<img src ="assets/images/ss1.png">
+
+Here is a <a href="https://mikeyrod22.github.io/rhythm-shift/">link to the deployed site.</a>
