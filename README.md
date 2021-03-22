@@ -12,3 +12,9 @@ WHEN I click the save button for that time block
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
+
+feature 1: display current date at top
+feature 2: create timeblocks for 9-5
+feature 3: color code timeblocks (past, present, future)
+feature 4: allow users to input events into time blocks
+feature 5: save events to local storage
